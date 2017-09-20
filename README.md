@@ -20,4 +20,4 @@ Line 9: Enter a URL that you want to be taken to when clicking on the title of a
 For example: `remote.API('192.168.11.5', 'password', '8765')` 
 
 ## Questions/Issues:
-If you have any questions or issues, please open an issue on GitHub. Feel free to make a pull request if you want to add or fix something
+If you have any questions or issues, please open an issue on GitHub. Feel free to make a pull request if you want to add or fix something.
