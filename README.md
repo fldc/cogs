@@ -3,6 +3,7 @@ Home Assistant Cog for [Red-DiscordBot](https://github.com/Cog-Creators/Red-Disc
 
 ## Installation:
 1) Clone this repo to a folder accessable by your Red bot
+
 2) Edit hass.py lines 8 and 9.
 
 Line 8: Ensure that in the first set of `''` that you put your Home Assistant IP address (port not needed). In the second set of `''`, put the password you use for Home Assistant. If you don't have a password, remove the `,''`
