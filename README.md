@@ -1,5 +1,5 @@
 # HASS-Cog:
-Home Assistant Cog for Red-DiscordBot. Red-DiscordBot is a multipurpose bot for Discord developed by Twentysix26.
+Home Assistant Cog for [Red-DiscordBot](https://github.com/Cog-Creators/Red-DiscordBot). Red-DiscordBot is a multipurpose bot for Discord developed by Twentysix26.
 
 ## Installation:
 1) Clone this repo to a folder accessable by your Red bot
