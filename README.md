@@ -4,18 +4,15 @@ Home Assistant Cog for [Red-DiscordBot](https://github.com/Cog-Creators/Red-Disc
 ## Installation:
 1) Clone this repo to a folder accessable by your Red bot
 
-2) Edit hass.py lines 8 and 9.
+2) Add IP and API key information from HASS using Discord<sup>1</sup> (DM or private channel recommended) using the following commands:
 
-Line 8: Ensure that in the first set of `''` that you put your Home Assistant IP address (port not needed)<sup>1</sup>. In the second set of `''`, put the password you use for Home Assistant. If you don't have a password, remove the `,''`
-
-For Example: `remote.API('192.168.11.5', 'password')`
-
-Line 9: Enter a URL that you want to be taken to when clicking on the title of an embeded message. These are the sections where Light status and Climate status will be reported.
+[p]ip_hass
+[p]apikey_hass
 
 3) You need to have Home Assistant installed (but not configured), on the system running your discord bot in order to get homeassistant.remote imported for use with the cog.
 
 ### Troubleshooting:
-<sup>1</sup> If you are not running Home Assistant on the default port (`8123`), add another set of `''` after the API Password, and enter the port number you are using.
+<sup>1</sup> If you are not running Home Assistant on the default port (`8123`), edit hass.py on your local server and edit line 18 as follows, then comment out line 33. Optionally change the URL in line 34 to match your desired URL. Note: See Issue 3
 
 For example: `remote.API('192.168.11.5', 'password', '8765')` 
 
