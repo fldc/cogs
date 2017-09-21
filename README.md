@@ -7,6 +7,7 @@ Home Assistant Cog for [Red-DiscordBot](https://github.com/Cog-Creators/Red-Disc
 2) Add IP and API key information from HASS using Discord<sup>1</sup> (DM or private channel recommended) using the following commands:
 
 [p]ip_hass
+
 [p]apikey_hass
 
 3) You need to have Home Assistant installed (but not configured), on the system running your discord bot in order to get homeassistant.remote imported for use with the cog.
