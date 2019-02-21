@@ -1,0 +1,9 @@
+{
+    "AUTHOR" : "just_insane#8594",
+    "SHORT" : "Integrate Home Assistant and Discord",
+    "DESCRIPTION" : "Integrate Home Assistant and Discord, control Home Assistant with a Discord Bot!",
+    "DISABLED" : false,
+    "NAME" : "HASS",
+    "TAGS" : ["home assistant", "hass"],
+    "INSTALL_MSG" : "Congrats On Downloading The HASS Cog! View the README.md on Github to get setup."
+}
